@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C76EECE155884080007C05F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C76EECD155884080007C05F /* UIKit.framework */; };
+		0C76EED0155884080007C05F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C76EECF155884080007C05F /* Foundation.framework */; };
+		0C76EED2155884080007C05F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C76EED1155884080007C05F /* CoreGraphics.framework */; };
+		0C76EED8155884080007C05F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C76EED6155884080007C05F /* InfoPlist.strings */; };
+		0C76EEDA155884080007C05F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C76EED9155884080007C05F /* main.m */; };
+		0C76EEDE155884080007C05F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C76EEDD155884080007C05F /* AppDelegate.m */; };
+		0C76EEE1155884080007C05F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C76EEE0155884080007C05F /* MasterViewController.m */; };
+		0C76EEE7155884080007C05F /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C76EEE5155884080007C05F /* MasterViewController.xib */; };
+		0C76EEF4155884410007C05F /* RowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C76EEF2155884410007C05F /* RowCell.m */; };
+		0C76EEF5155884410007C05F /* RowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C76EEF3155884410007C05F /* RowCell.xib */; };
+		0C76EEF8155885410007C05F /* GridTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C76EEF7155885410007C05F /* GridTableViewController.m */; };
+		D2DC36DB155A0F2C00F17F71 /* photo_not_available.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DC36DA155A0F2C00F17F71 /* photo_not_available.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C76EEC9155884080007C05F /* GirdLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirdLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C76EECD155884080007C05F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C76EECF155884080007C05F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C76EED1155884080007C05F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C76EED5155884080007C05F /* GirdLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GirdLayout-Info.plist"; sourceTree = "<group>"; };
+		0C76EED7155884080007C05F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C76EED9155884080007C05F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C76EEDB155884080007C05F /* GirdLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GirdLayout-Prefix.pch"; sourceTree = "<group>"; };
+		0C76EEDC155884080007C05F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C76EEDD155884080007C05F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C76EEDF155884080007C05F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0C76EEE0155884080007C05F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0C76EEE6155884080007C05F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		0C76EEF1155884410007C05F /* RowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowCell.h; sourceTree = "<group>"; };
+		0C76EEF2155884410007C05F /* RowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowCell.m; sourceTree = "<group>"; };
+		0C76EEF3155884410007C05F /* RowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowCell.xib; sourceTree = SOURCE_ROOT; };
+		0C76EEF6155885410007C05F /* GridTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridTableViewController.h; path = GirdLayout/GridTableViewController.h; sourceTree = "<group>"; };
+		0C76EEF7155885410007C05F /* GridTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GridTableViewController.m; path = GirdLayout/GridTableViewController.m; sourceTree = "<group>"; };
+		D2DC36DA155A0F2C00F17F71 /* photo_not_available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_not_available.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C76EEC6155884080007C05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C76EECE155884080007C05F /* UIKit.framework in Frameworks */,
+				0C76EED0155884080007C05F /* Foundation.framework in Frameworks */,
+				0C76EED2155884080007C05F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C76EEBE155884080007C05F = {
+			isa = PBXGroup;
+			children = (
+				0C76EEF01558841F0007C05F /* GridLayoutClasses */,
+				0C76EED3155884080007C05F /* GirdLayout */,
+				0C76EECC155884080007C05F /* Frameworks */,
+				0C76EECA155884080007C05F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C76EECA155884080007C05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C76EEC9155884080007C05F /* GirdLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C76EECC155884080007C05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C76EECD155884080007C05F /* UIKit.framework */,
+				0C76EECF155884080007C05F /* Foundation.framework */,
+				0C76EED1155884080007C05F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C76EED3155884080007C05F /* GirdLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0C76EEDC155884080007C05F /* AppDelegate.h */,
+				0C76EEDD155884080007C05F /* AppDelegate.m */,
+				0C76EEDF155884080007C05F /* MasterViewController.h */,
+				0C76EEE0155884080007C05F /* MasterViewController.m */,
+				0C76EEE5155884080007C05F /* MasterViewController.xib */,
+				0C76EED4155884080007C05F /* Supporting Files */,
+			);
+			path = GirdLayout;
+			sourceTree = "<group>";
+		};
+		0C76EED4155884080007C05F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C76EED5155884080007C05F /* GirdLayout-Info.plist */,
+				0C76EED6155884080007C05F /* InfoPlist.strings */,
+				0C76EED9155884080007C05F /* main.m */,
+				0C76EEDB155884080007C05F /* GirdLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C76EEF01558841F0007C05F /* GridLayoutClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D2DC36DA155A0F2C00F17F71 /* photo_not_available.png */,
+				0C76EEF6155885410007C05F /* GridTableViewController.h */,
+				0C76EEF7155885410007C05F /* GridTableViewController.m */,
+				0C76EEF1155884410007C05F /* RowCell.h */,
+				0C76EEF2155884410007C05F /* RowCell.m */,
+				0C76EEF3155884410007C05F /* RowCell.xib */,
+			);
+			name = GridLayoutClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C76EEC8155884080007C05F /* GirdLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C76EEED155884080007C05F /* Build configuration list for PBXNativeTarget "GirdLayout" */;
+			buildPhases = (
+				0C76EEC5155884080007C05F /* Sources */,
+				0C76EEC6155884080007C05F /* Frameworks */,
+				0C76EEC7155884080007C05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirdLayout;
+			productName = GirdLayout;
+			productReference = 0C76EEC9155884080007C05F /* GirdLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C76EEC0155884080007C05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = UB;
+			};
+			buildConfigurationList = 0C76EEC3155884080007C05F /* Build configuration list for PBXProject "GirdLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C76EEBE155884080007C05F;
+			productRefGroup = 0C76EECA155884080007C05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C76EEC8155884080007C05F /* GirdLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C76EEC7155884080007C05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C76EED8155884080007C05F /* InfoPlist.strings in Resources */,
+				0C76EEE7155884080007C05F /* MasterViewController.xib in Resources */,
+				0C76EEF5155884410007C05F /* RowCell.xib in Resources */,
+				D2DC36DB155A0F2C00F17F71 /* photo_not_available.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C76EEC5155884080007C05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C76EEDA155884080007C05F /* main.m in Sources */,
+				0C76EEDE155884080007C05F /* AppDelegate.m in Sources */,
+				0C76EEE1155884080007C05F /* MasterViewController.m in Sources */,
+				0C76EEF4155884410007C05F /* RowCell.m in Sources */,
+				0C76EEF8155885410007C05F /* GridTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C76EED6155884080007C05F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C76EED7155884080007C05F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C76EEE5155884080007C05F /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C76EEE6155884080007C05F /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C76EEEB155884080007C05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C76EEEC155884080007C05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C76EEEE155884080007C05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GirdLayout/GirdLayout-Prefix.pch";
+				INFOPLIST_FILE = "GirdLayout/GirdLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C76EEEF155884080007C05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GirdLayout/GirdLayout-Prefix.pch";
+				INFOPLIST_FILE = "GirdLayout/GirdLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C76EEC3155884080007C05F /* Build configuration list for PBXProject "GirdLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C76EEEB155884080007C05F /* Debug */,
+				0C76EEEC155884080007C05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C76EEED155884080007C05F /* Build configuration list for PBXNativeTarget "GirdLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C76EEEE155884080007C05F /* Debug */,
+				0C76EEEF155884080007C05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C76EEC0155884080007C05F /* Project object */;
+}
